@@ -31,7 +31,7 @@
 
     <v-content>
       <div>
-        <v-row>
+        <v-row style="position:sticky;top:0;left:0">
           <v-col cols="1">
             <v-btn elevation="0" color="white" @click.stop="drawer = !drawer">
               <v-icon>mdi-menu</v-icon>
